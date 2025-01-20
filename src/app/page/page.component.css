@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: pink;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inst {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px; /* Espaço entre o ícone e o título */
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.imgs {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0 50px 0 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2); ;
+}
